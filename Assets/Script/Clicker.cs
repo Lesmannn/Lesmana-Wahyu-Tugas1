@@ -24,15 +24,10 @@ public class Clicker : MonoBehaviour
 
             if (click.collider != null)
             {
-                if (click.collider.tag == "Enemy")
+                IClickable tap = click.collider.GetComponent<IClickable>();
+                if (tap != null)
                 {
-                    click.collider.GetComponent<EnemyMove>().Destroy();
-                    ScoreManager.instance.AddScore();
-                }
-                else if (click.collider.tag == "Human")
-                {
-                    click.collider.GetComponent<EnemyMove>().Destroy();
-                    GameManager.instance.gameOver();
+                    tap.OnClick();
                 }
 
             }

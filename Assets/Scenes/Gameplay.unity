@@ -851,6 +851,54 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 439483726}
   m_CullTransparentMesh: 1
+--- !u!1 &473847772
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 473847774}
+  - component: {fileID: 473847773}
+  m_Layer: 0
+  m_Name: BossSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &473847773
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 473847772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f68e6de12941e5346a077a1e771846b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectToSpawn: {fileID: 6433025360907612928, guid: cdc2b5bd19a130f4aafe1894dec9ba9f, type: 3}
+  jumlahEnemy: 0
+  xPos: 0
+  yPos: 0
+--- !u!4 &473847774
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 473847772}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.052565, y: -3.5645888, z: -0.15969953}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &501806641
 GameObject:
   m_ObjectHideFlags: 0
@@ -1452,7 +1500,6 @@ MonoBehaviour:
   objectToSpawn: {fileID: 8985825056203456351, guid: a4ab03c0f29b0384caa7871968cd2cac, type: 3}
   jumlahEnemy: 0
   total: 10
-  xPos: 0
   wave: {fileID: 178620707}
 --- !u!1 &1374859975
 GameObject:

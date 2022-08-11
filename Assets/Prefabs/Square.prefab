@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 6997251106515208316}
   - component: {fileID: 1322091877136865860}
-  - component: {fileID: 908506871033651781}
   - component: {fileID: 7139084953508752321}
   - component: {fileID: 3531853927692401444}
+  - component: {fileID: 3457285985661920174}
   m_Layer: 0
   m_Name: Square
   m_TagString: Human
@@ -87,19 +87,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &908506871033651781
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6478263210460112196}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 48fff90640e58234188fd4b0453e3a54, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 1
 --- !u!61 &7139084953508752321
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -147,3 +134,15 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &3457285985661920174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6478263210460112196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6029ab933bebc9946992d12ccda29294, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

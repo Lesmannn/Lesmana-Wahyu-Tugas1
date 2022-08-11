@@ -5,11 +5,11 @@ using UnityEngine.UI;
 
 public class SpawnEnemy : MonoBehaviour
 {
-    public GameObject objectToSpawn;
-    public int jumlahEnemy;
-    public int total;
-    public float xPos;
-    public Text wave;
+    [SerializeField] private GameObject objectToSpawn;
+    [SerializeField] private int jumlahEnemy;
+    [SerializeField] private int total;
+    private float xPos;
+    [SerializeField] Text wave;
     int currentWave = 1;
     //int timer = 0;
     // Start is called before the first frame update

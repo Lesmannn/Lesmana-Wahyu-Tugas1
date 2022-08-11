@@ -15,7 +15,7 @@ public class EnemyMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(Vector2.down * speed * Time.deltaTime);
+        transform.Translate(new Vector2 (-2f, -1f) * speed * Time.deltaTime);
     }
     public void Destroy()
     {
